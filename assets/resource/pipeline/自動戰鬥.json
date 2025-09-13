@@ -1148,6 +1148,16 @@
             "拆船点击解装2"
         ]
     },
+    "拆船时保留装备": {
+        "recognition": "OCR",
+        "expected": [
+            "卸下所有装备"
+        ],
+        "action": "Click",
+        "next": [
+            "拆船点击解装2"
+        ]
+    },
     "拆船点击解装2": {
         "recognition": "OCR",
         "expected": [
