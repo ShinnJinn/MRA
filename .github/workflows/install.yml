@@ -91,6 +91,11 @@ jobs:
           out-file-path: "MFA"
           extract: true
 
+      - name: Setup Embed Python on Windows
+        shell: bash
+        run: |
+          python setup_embed_python.py
+
       - name: Install
         shell: bash
         run: |
